@@ -4,7 +4,7 @@ import time
 
 def get_gesture(gest1, gest2):
     if gest1 == "fist" and gest2 == "palm":
-        # osascript.osascript("""
+        # osascript.osascript(""" bruh
         # tell application "Tunify"
 	    #     pause
         # end tell
