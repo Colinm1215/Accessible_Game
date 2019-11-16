@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+from playsound import playsound
 import time
 
 def get_gesture(gest1, gest2):
@@ -13,7 +14,7 @@ def get_gesture(gest1, gest2):
 
 
     elif (gest1 == "palm" and gest2 == "fist"):
-        # osascript.osascript(""" hi lol
+        # osascript.osascript(""" hi lollol
         #     tell application "Tunify"
         # 	    pause
         #     end tell
@@ -140,6 +141,7 @@ def show_webcam():
 
 def main():
     show_webcam()
+    playsound('themesong.mp3')
 
 
 if __name__ == '__main__':
