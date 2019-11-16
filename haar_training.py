@@ -13,7 +13,7 @@ def get_gesture(gest1, gest2):
 
 
     elif (gest1 == "palm" and gest2 == "fist"):
-        # osascript.osascript("""
+        # osascript.osascript(""" hi lol
         #     tell application "Tunify"
         # 	    pause
         #     end tell
